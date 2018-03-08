@@ -1,0 +1,59 @@
+{
+  "name": "vue-test-jest",
+  "description": "Various examples of how to test Vue.js components",
+  "version": "1.0.0",
+  "author": "Paul Halliday <hello@paulhalliday.io>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "uuid": "^3.1.0",
+    "vue": "^2.5.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@types/jest": "22.0.1",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.0.4",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "jest": "^22.0.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-jest": "^1.4.0",
+    "vue-loader": "^13.0.5",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.4.4",
+    "vue-test-utils": "^1.0.0-beta.9",
+    "wallaby-vue-compiler": "1.0.2",
+    "wallaby-webpack": "3.9.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^vue$": "vue/dist/vue.common.js"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+    }
+  }
+}

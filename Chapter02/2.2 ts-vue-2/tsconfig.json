@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"lib": ["dom", "es5", "es2015"],
+		"module": "es2015",
+		"target": "es5",
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"noImplicitReturns": true
+	},
+	"include": ["./src/**/*"]
+}

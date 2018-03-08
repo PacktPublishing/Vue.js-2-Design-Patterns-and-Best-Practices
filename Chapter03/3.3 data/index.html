@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue Data</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+
+  <div id="app">
+
+  </div>
+
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        firstName: 'Paul Halliday',
+
+      }
+    });
+
+    const user = {};
+    let fullName = 'Paul Halliday';
+    
+    Object.defineProperty(user, 'fullName', {
+      configurable: true,
+      enumerable: true,
+      get() {
+        return fullName;
+      },
+      set(v) {
+        fullName = v;
+      }
+    });
+    console.log(user.fullName); // > Paul Halliday
+    user.fullName = "John Doe";
+    console.log(user.fullName); // > John Doe
+  </script>
+</body>
+</html>

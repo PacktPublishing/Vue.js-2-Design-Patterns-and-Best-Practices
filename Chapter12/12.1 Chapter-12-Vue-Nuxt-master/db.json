@@ -1,0 +1,68 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Blueberry and Chocolate Cake",
+      "categoryId": 1,
+      "image": "https://static.pexels.com/photos/291528/pexels-photo-291528.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Chocolate Cheesecake",
+      "categoryId": 1,
+      "image": "https://images.pexels.com/photos/47013/pexels-photo-47013.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "New York and Berry Cheesecake",
+      "categoryId": 1,
+      "image": "https://images.pexels.com/photos/14107/pexels-photo-14107.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Salad with Light Dressing",
+      "categoryId": 2,
+      "image": "https://static.pexels.com/photos/257816/pexels-photo-257816.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Salmon Slices",
+      "categoryId": 2,
+      "image": "https://static.pexels.com/photos/629093/pexels-photo-629093.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Mushroom, Tomato and Sweetcorn Pizza",
+      "categoryId": 3,
+      "image": "https://static.pexels.com/photos/7658/food-pizza-box-chalkboard.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Fresh Burger",
+      "categoryId": 4,
+      "image": "https://images.pexels.com/photos/460599/pexels-photo-460599.jpeg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dessert",
+      "description": "Delcious desserts that range from creamy New York style cheesecakes to scrumptious blueberry and chocolate cakes."
+    },
+    {
+      "id": 2,
+      "name": "Healthy Eating",
+      "description": "Healthy options don't have to be boring with our fresh salmon slices and sweet, crispy salad."
+    },
+    {
+      "id": 3,
+      "name": "Pizza",
+      "description": "Pizza is always a popular choice, chef up the perfect meat feast with our recipes!"
+    },
+    {
+      "id": 4,
+      "name": "Burgers",
+      "description": "Be the king of the party with our flagship BBQ Burger recipe, or make something lighter with our veggie burgers!"
+    }
+  ]
+}

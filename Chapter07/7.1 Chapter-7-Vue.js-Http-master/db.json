@@ -1,0 +1,16 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Vue.js Design Patterns"
+    },
+    {
+      "id": 2,
+      "name": "Angular: From Beginner to Advanced"
+    },
+    {
+      "id": 3,
+      "name": "Cross Platform Native Applications with Fuse"
+    }
+  ]
+}

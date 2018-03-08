@@ -1,0 +1,9 @@
+@import 'nativescript-theme-core/css/core.dark.css';
+
+list-view {
+    height: 100%;
+}
+
+.list {
+    margin: 20px;
+}

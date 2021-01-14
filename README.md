@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Book for only $5 on PacktPub.com](https://www.packtpub.com/product/vue-js-2-design-patterns-and-best-practices/9781788839792)
------
-*If you have read this book, please leave a review on [Amazon.com](https://www.amazon.com/gp/product/178883979X).     Potential readers can then use your unbiased opinion to help them make purchase decisions. Thank you. The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Vue.js 2 Design Patterns and Best Practices
 This is the code repository for [Vue.js 2 Design Patterns and Best Practices](https://www.packtpub.com/web-development/vuejs-design-patterns-and-best-practices?utm_source=github&utm_medium=repository&utm_campaign=9781788839792), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book

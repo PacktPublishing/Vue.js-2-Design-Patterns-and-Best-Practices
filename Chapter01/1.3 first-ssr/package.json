@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "vue": "^2.5.13",
     "vue-server-renderer": "^2.5.13"
   }
